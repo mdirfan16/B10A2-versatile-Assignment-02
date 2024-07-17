@@ -262,3 +262,41 @@ span {
     margin-top: 15px;
     font-size: 1.2rem;
 }
+
+.extra-mile-box{
+    width: 80%;
+    height: 400px;
+    background-color: rgba(34, 34, 34, 1);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 30px;
+}
+.mile-title{
+    font-size: 3.5rem;
+    color: white;
+
+}
+
+.extra-mile-img{
+    display: inline-grid;
+    overflow: hidden;
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+
+
+}
+
+.extra-mile-img img{
+    width: 100%;
+    transform: scale(3);
+    transform-origin: 280px 60px;
+ 
+}
+.extra-mile-text{
+    width: 40%;
+    margin: auto 0 auto 50px;
+    
+}
