@@ -319,6 +319,120 @@ span {
     margin: auto 0 auto 50px;
 
 }
+.bmi-section{
+    margin-top: 100px;
+}
+
+.bmi-text{
+    width: 50%;
+    margin: 100px auto;
+}
+.bmi-text h3{
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 10px;
+    
+}
+.bmi-description{
+    font-size: 1rem;
+    color: white;
+    font-weight: 200;
+    opacity: 50%;
+    margin-bottom: 30px;
+
+}
+
+.cal-box{
+    width:100%;
+    height: 400px;
+    background-color: rgba(34, 34, 34, 1);
+
+}
+.cal-container{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.cal-table{
+    width: 400px;
+    /* border: 2px solid wheat; */
+}
+caption{
+    text-align: start;
+    font-size: 1.75rem;
+    font-weight: 800;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+table,
+th,
+td {
+    border-collapse: collapse;
+    border: 2px solid rgba(77, 77, 77, 0.425);
+    color: white;
+    padding: 10px 20px;
+    text-align: start;
+}
+td{
+    font-size: .8rem;
+    font-weight: 300;
+    color: rgb(158, 158, 158);
+}
+th{
+    font-size: 1rem;
+}
+.bmi-content{
+    width: 600px;
+    /* border: 2px solid wheat; */
+
+    
+}
+.bmi-content h3{
+    text-align: start;
+    font-size: 1.75rem;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 15px;
+    margin-top: 50px;
+}
+
+.bmi-form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+}
+
+input, #male, #select {
+    padding: 15px;
+    background-color: rgba(70, 69, 69, 0.712);
+    border: none;
+    border-radius: 7px;
+    color: rgb(158, 158, 158);
+    font-size: 1rem;
+    font-weight: 200;
+}
+#select{
+    padding: 15px;
+    grid-column: span 2;
+    font-size: 1rem;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.466);
+
+}
+.btn-primary-cal{
+    background-color: rgba(230, 83, 60, 1);
+    padding: 10px 60px;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    font-weight: 400;
+    border-radius: 50px;
+    margin-top: 30px;
+
+}
 
 
 
@@ -355,7 +469,8 @@ span {
         margin-left: 20px;
 
     }
-    .banner-img{
+
+    .banner-img {
         width: 100%;
         height: 100%;
     }
@@ -443,6 +558,7 @@ span {
         border-radius: 25px;
         background-color: rgb(230, 83, 60);
     }
+
     .card-text {
         font-size: 1.2rem;
         color: white;
@@ -482,6 +598,7 @@ span {
         color: rgb(199, 199, 199);
         margin: 3% 0;
     }
+
     .habit-title {
         font-size: 2rem;
         color: white;
@@ -515,6 +632,7 @@ span {
         color: white;
 
     }
+
     .mile-description {
         font-size: .8rem;
         color: white;
