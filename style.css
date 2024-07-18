@@ -319,21 +319,24 @@ span {
     margin: auto 0 auto 50px;
 
 }
-.bmi-section{
+
+.bmi-section {
     margin-top: 100px;
 }
 
-.bmi-text{
+.bmi-text {
     width: 50%;
     margin: 100px auto;
 }
-.bmi-text h3{
+
+.bmi-text h3 {
     font-size: 3rem;
     color: white;
     margin-bottom: 10px;
-    
+
 }
-.bmi-description{
+
+.bmi-description {
     font-size: 1rem;
     color: white;
     font-weight: 200;
@@ -342,24 +345,27 @@ span {
 
 }
 
-.cal-box{
-    width:100%;
+.cal-box {
+    width: 100%;
     height: 400px;
     background-color: rgba(34, 34, 34, 1);
 
 }
-.cal-container{
+
+.cal-container {
     margin: 0 auto;
     width: 80%;
     display: flex;
     justify-content: space-between;
-    
+
 }
-.cal-table{
+
+.cal-table {
     width: 400px;
     /* border: 2px solid wheat; */
 }
-caption{
+
+caption {
     text-align: start;
     font-size: 1.75rem;
     font-weight: 800;
@@ -376,21 +382,25 @@ td {
     padding: 10px 20px;
     text-align: start;
 }
-td{
+
+td {
     font-size: .8rem;
     font-weight: 300;
     color: rgb(158, 158, 158);
 }
-th{
+
+th {
     font-size: 1rem;
 }
-.bmi-content{
+
+.bmi-content {
     width: 600px;
     /* border: 2px solid wheat; */
 
-    
+
 }
-.bmi-content h3{
+
+.bmi-content h3 {
     text-align: start;
     font-size: 1.75rem;
     font-weight: 800;
@@ -399,13 +409,15 @@ th{
     margin-top: 50px;
 }
 
-.bmi-form{
+.bmi-form {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 8px;
 }
 
-input, #male, #select {
+input,
+#male,
+#select {
     padding: 15px;
     background-color: rgba(70, 69, 69, 0.712);
     border: none;
@@ -414,7 +426,8 @@ input, #male, #select {
     font-size: 1rem;
     font-weight: 200;
 }
-#select{
+
+#select {
     padding: 15px;
     grid-column: span 2;
     font-size: 1rem;
@@ -422,7 +435,8 @@ input, #male, #select {
     color: rgba(255, 255, 255, 0.466);
 
 }
-.btn-primary-cal{
+
+.btn-primary-cal {
     background-color: rgba(230, 83, 60, 1);
     padding: 10px 60px;
     color: white;
@@ -645,6 +659,61 @@ input, #male, #select {
         margin-left: -5px;
 
     }
+
+    .cal-box {
+        width: 100vw;
+        height: auto;
+
+    }
+
+    .cal-container {
+        flex-direction: column;
+    }
+
+    .bmi-content {
+        width: 100%;
+    }
+
+    input,
+    #male,
+    #select {
+        padding: 10px;
+        background-color: rgba(70, 69, 69, 0.712);
+        border: none;
+        border-radius: 7px;
+        color: rgb(158, 158, 158);
+        font-size: .7rem;
+        font-weight: 200;
+    }
+
+    #select {
+        padding: 10px;
+        grid-column: span 2;
+        font-size: .7rem;
+        font-weight: 200;
+        color: rgba(255, 255, 255, 0.466);
+
+    }
+    .bmi-text {
+        margin:0 auto;
+        width: 70%;}
+
+    .bmi-text h3 {
+        font-size: 2rem;
+        color: white;
+        margin-bottom: 10px;
+    
+    }
+    
+    .bmi-description {
+        font-size: .8rem;
+        color: white;
+        font-weight: 200;
+        opacity: 50%;
+        margin-bottom: 30px;
+    
+    }
+
 
 
 }
