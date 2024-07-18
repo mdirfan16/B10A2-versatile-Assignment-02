@@ -448,6 +448,11 @@ input,
 
 }
 
+.div{
+    width: 100%;
+    height: 400px;
+}
+
 
 
 @media screen and (max-width: 576px) {
@@ -612,9 +617,14 @@ input,
         color: rgb(199, 199, 199);
         margin: 3% 0;
     }
+    .habit-text-container {
+        width: px;
+        margin: 0 auto;
+        text-align: center;
+    }
 
     .habit-title {
-        font-size: 2rem;
+        font-size: 1.8rem;
         color: white;
     }
 
@@ -659,10 +669,13 @@ input,
         margin-left: -5px;
 
     }
+    .cal-table{
+        width: 100%;
+    }
 
     .cal-box {
-        width: 100vw;
-        height: auto;
+        width: 100%;
+        height: 700px;
 
     }
 
@@ -682,14 +695,14 @@ input,
         border: none;
         border-radius: 7px;
         color: rgb(158, 158, 158);
-        font-size: .7rem;
+        font-size: 8px;
         font-weight: 200;
     }
 
     #select {
         padding: 10px;
         grid-column: span 2;
-        font-size: .7rem;
+        font-size: 8px;
         font-weight: 200;
         color: rgba(255, 255, 255, 0.466);
 
@@ -712,6 +725,10 @@ input,
         opacity: 50%;
         margin-bottom: 30px;
     
+    }
+    .div{
+        width: 100%;
+        height: 400px;
     }
 
 
