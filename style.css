@@ -553,14 +553,15 @@ input,
     margin-bottom: 20px;
     margin-top: 2rem;
 }
-.footer-des{
+.footer-description{
     font-size: 1rem;
     color: white;
-    opacity: 70%;
+    opacity: 80% ;
     line-height: 1.5rem;
     margin-top: 10px;
 
 }
+
 .footer-element-2 h4{
     font-size: 1.75rem;
     color: white;
@@ -597,11 +598,12 @@ input,
     opacity: 30%;
 
 }
-.footer-section p{
+.copyright {
     margin: 0 auto;
     color: rgba(255, 255, 255, 0.398);
     font-weight: 200;
     text-align: center;
+    width: 80%;
 }
 
 
@@ -881,6 +883,50 @@ input,
     .div{
         width: 100%;
         height: 400px;
+    }
+    .team-text-contant h3{
+        font-size: 2rem;
+        color: white;
+    }
+    .team-bg{
+        grid-template-columns: 1fr;
+        height: 1850px;
+    }
+    .trainer-image img{
+        width: 100%;
+        height: auto;
+        transform: scale(1.15);
+        transform-origin: 150px 90px;
+        filter: brightness(90%);
+    }
+    .trainer-image3 img{
+        width: 100%;
+        height: auto;
+        transform: scale(1.05);
+        transform-origin: 300px 550px;
+        filter: brightness(90%);
+    }
+    .trainer-image4 img{
+        width: 100%;
+        height: auto;
+        transform: scale(1.65);
+        transform-origin: 200px 0px;
+        filter: brightness(90%);
+    }
+    .trainer-image5 img{
+        width: 100%;
+        height: 95%;
+        transform: scale(1.1);
+        transform-origin: 100px 380px;
+        filter: brightness(90%);
+    }
+    .footer-container{
+        flex-direction: column;
+    }
+    .footer-section{
+        width: 100%;
+        height: 100%;
+        
     }
 
 
