@@ -540,18 +540,68 @@ input,
 .footer-container{
     width: 80%;
     margin: 0 auto;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
 }
 .footer-element-1{
-    width: 50%;
+    width: 40%;
 }
 .footer-element-1 h3{
     font-size: 3rem;
     color: rgba(230, 83, 60, 1) ;
     margin-bottom: 20px;
+    margin-top: 2rem;
+}
+.footer-des{
+    font-size: 1rem;
+    color: white;
+    opacity: 70%;
+    line-height: 1.5rem;
+    margin-top: 10px;
+
+}
+.footer-element-2 h4{
+    font-size: 1.75rem;
+    color: white;
+    margin-bottom: 1.25rem;
+    margin-top: 2rem;
+
+}
+.footer-element-2 li{
+    list-style: none;
+    color: white;
+    opacity: 70%;
+    line-height: 2.5rem;
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+.footer-element-3 h4{
+    font-size: 1.75rem;
+    color: white;
+    margin-bottom: 1.25rem;
+    margin-top: 2rem;
+
+}
+.footer-element-3 li{
+    list-style: none;
+    color: white;
+    opacity: 70%;
+    line-height: 2.5rem;
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+.footer-section hr{
+    margin: 50px auto;
+    width: 80%;
+    opacity: 30%;
+
+}
+.footer-section p{
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 0.398);
+    font-weight: 200;
+    text-align: center;
 }
 
 
