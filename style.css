@@ -320,6 +320,82 @@ span {
 
 }
 
+.package-section {
+    margin-top: 100px;
+
+}
+
+.Package-title h3 {
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.Package-title {
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: center;
+}
+
+.Package-description {
+    font-size: 1rem;
+    color: white;
+    opacity: 50%;
+    line-height: 1.5rem;
+    margin-top: 10px;
+    font-weight: 200;
+}
+
+.card {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.card-element {
+    width: 350px;
+    height: inherit;
+    background-color: rgba(34, 34, 34, 0.61);
+    box-shadow: 10px 5px 10px 0 rgba(4, 29, 112, 0.123);
+    border: 2px solid white;
+    text-align: center;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.card-element img {
+    width: 80px;
+}
+
+.card-element h3 {
+    color: white;
+    margin: 10px 0 10px 0;
+
+}
+
+.card-element p {
+    color: rgb(122, 122, 122);
+    font-size: .8rem;
+
+}
+
+.btn-primary-pack {
+    background-color: rgba(230, 83, 60, 1);
+    padding: 8px 30px;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    font-weight: 400;
+    border-radius: 50px;
+    margin-top: 15px;
+    cursor: pointer;
+
+}
+
+
 .bmi-section {
     margin-top: 100px;
 }
@@ -621,7 +697,7 @@ input,
 
 }
 
-.c-text{
+.c-text {
     margin: 0 auto;
     color: rgba(255, 255, 255, 0.398);
     font-weight: 200;
@@ -849,6 +925,20 @@ input,
 
     }
 
+    .card {
+        flex-direction: column;
+    }
+
+    .card-element h3 {
+        font-size: 2rem;
+
+    }
+    .card-element p {
+        font-size: .8rem;
+
+    }
+
+
     .cal-table {
         width: 100%;
     }
@@ -960,6 +1050,7 @@ input,
         flex-direction: column;
         width: 80%;
     }
+
     .footer-element-1 {
         width: 100%;
     }
@@ -969,11 +1060,12 @@ input,
         height: 100%;
         margin-bottom: -50px;
     }
-    .footer-description{
+
+    .footer-description {
         font-size: 1rem;
     }
 
-    .c-text{
+    .c-text {
         width: 100%;
         text-align: center;
         font-size: 1rem;
