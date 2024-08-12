@@ -621,7 +621,7 @@ input,
 
 }
 
-.c-text p {
+.c-text{
     margin: 0 auto;
     color: rgba(255, 255, 255, 0.398);
     font-weight: 200;
@@ -973,10 +973,12 @@ input,
         font-size: 1rem;
     }
 
-    .c-text p {
+    .c-text{
         width: 100%;
-        margin-bottom: -105px;
         text-align: center;
+        font-size: 1rem;
+        font-weight: 400;
+        padding-bottom: 50px;
     }
 
 }
