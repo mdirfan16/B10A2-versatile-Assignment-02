@@ -570,7 +570,6 @@ input,
     color: rgb(230, 83, 60);
     margin-bottom: 20px;
     margin-top: 2rem;
-    border: 2px solid white;
 }
 
 .footer-description {
@@ -579,8 +578,6 @@ input,
     opacity: 80%;
     line-height: 1.5rem;
     margin-top: 10px;
-    border: 2px solid white;
-
 }
 
 .footer-element-2 h4 {
