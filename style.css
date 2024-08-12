@@ -448,25 +448,28 @@ input,
 
 }
 
-.div{
+.div {
     width: 100%;
     height: 400px;
 }
-.team-section{
+
+.team-section {
     width: 100%;
     margin-top: 100px;
 }
 
-.team-text-contant{
+.team-text-contant {
     width: 60%;
     text-align: center;
     margin: 0 auto;
 }
-.team-text-contant h3{
+
+.team-text-contant h3 {
     font-size: 3rem;
     color: white;
 }
-.team-bg{
+
+.team-bg {
     width: 80%;
     height: 620px;
     background-color: rgba(70, 69, 69, 0.712);
@@ -478,98 +481,117 @@ input,
     padding: 20px;
     margin-top: 50px;
 }
-.trainer-image, .trainer-image3, .trainer-image4, .trainer-image5{
+
+.trainer-image,
+.trainer-image3,
+.trainer-image4,
+.trainer-image5 {
     position: relative;
-    display:inline-grid;
+    display: inline-grid;
     overflow: hidden;
     width: 100%;
     height: 280px;
     border-radius: 15px;
 }
-.trainer-image img{
+
+.trainer-image img {
     width: 100%;
     height: auto;
     transform: scale(1);
     transform-origin: 100px 90px;
     filter: brightness(90%);
 }
-.trainer-image3 img{
+
+.trainer-image3 img {
     width: 100%;
     height: auto;
     transform: scale(1.05);
     transform-origin: 300px 550px;
     filter: brightness(90%);
 }
-.trainer-image4 img{
+
+.trainer-image4 img {
     width: 100%;
     height: auto;
     transform: scale(1.5);
-    transform-origin: 160px  0;
+    transform-origin: 160px 0;
     filter: brightness(90%);
 }
-.trainer-image5 img{
+
+.trainer-image5 img {
     width: 100%;
     height: 95%;
     transform: scale(1.1);
     transform-origin: 100px 380px;
     filter: brightness(90%);
 }
-.text-z-in{
+
+.text-z-in {
     position: absolute;
     z-index: 10;
     top: 80%;
     left: 7%;
 }
-.text-z-in h4{
+
+.text-z-in h4 {
     font-size: 1.25rem;
     color: white;
 
 }
-.text-z-in p{
+
+.text-z-in p {
     font: 1rem;
     color: white;
     opacity: 50%;
 }
-.footer-section{
+
+.footer-section {
     width: 100%;
     height: 400px;
     background-color: rgba(70, 69, 69, 0.712);
     margin-top: 100px;
 
 }
-.footer-container{
+
+.footer-container {
     width: 80%;
     margin: 0 auto;
     /* border: 2px solid white; */
     display: flex;
     justify-content: space-between;
 }
-.footer-element-1{
+
+.footer-element-1 {
     width: 40%;
 }
-.footer-element-1 h3{
+
+.footer-element-1 h3 {
     font-size: 3rem;
-    color: rgb(2, 199, 34) ;
+    color: rgb(230, 83, 60);
     margin-bottom: 20px;
     margin-top: 2rem;
+    border: 2px solid white;
 }
-.footer-description{
+
+.footer-description {
     font-size: 1rem;
     color: white;
-    opacity: 80% ;
+    opacity: 80%;
     line-height: 1.5rem;
     margin-top: 10px;
+    border: 2px solid white;
 
 }
 
-.footer-element-2 h4{
+.footer-element-2 h4 {
     font-size: 1.75rem;
     color: white;
     margin-bottom: 1.25rem;
     margin-top: 2rem;
 
 }
-.footer-element-2 li{
+
+.footer-element-2 li {
     list-style: none;
     color: white;
     opacity: 70%;
@@ -577,14 +599,16 @@ input,
     font-size: 1.2rem;
     font-weight: 200;
 }
-.footer-element-3 h4{
+
+.footer-element-3 h4 {
     font-size: 1.75rem;
     color: white;
     margin-bottom: 1.25rem;
     margin-top: 2rem;
 
 }
-.footer-element-3 li{
+
+.footer-element-3 li {
     list-style: none;
     color: white;
     opacity: 70%;
@@ -592,19 +616,21 @@ input,
     font-size: 1.2rem;
     font-weight: 200;
 }
-.footer-section hr{
+
+.footer-section hr {
     margin: 50px auto;
     width: 80%;
     opacity: 30%;
 
 }
-.copyright {
+
+.c-text p {
     margin: 0 auto;
     color: rgba(255, 255, 255, 0.398);
     font-weight: 200;
     text-align: center;
     width: 80%;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 
@@ -772,6 +798,7 @@ input,
         color: rgb(199, 199, 199);
         margin: 3% 0;
     }
+
     .habit-text-container {
         width: px;
         margin: 0 auto;
@@ -824,7 +851,8 @@ input,
         margin-left: -5px;
 
     }
-    .cal-table{
+
+    .cal-table {
         width: 100%;
     }
 
@@ -862,78 +890,96 @@ input,
         color: rgba(255, 255, 255, 0.466);
 
     }
+
     .bmi-text {
-        margin:0 auto;
-        width: 70%;}
+        margin: 0 auto;
+        width: 70%;
+    }
 
     .bmi-text h3 {
         font-size: 2rem;
         color: white;
         margin-bottom: 10px;
-    
+
     }
-    
+
     .bmi-description {
         font-size: .8rem;
         color: white;
         font-weight: 200;
         opacity: 50%;
         margin-bottom: 30px;
-    
+
     }
-    .div{
+
+    .div {
         width: 100%;
         height: 400px;
     }
-    .team-text-contant h3{
+
+    .team-text-contant h3 {
         font-size: 2rem;
         color: white;
     }
-    .team-bg{
+
+    .team-bg {
         grid-template-columns: 1fr;
         height: 1850px;
     }
-    .trainer-image img{
+
+    .trainer-image img {
         width: 100%;
         height: auto;
         transform: scale(1.25);
         transform-origin: 120px 10px;
         filter: brightness(90%);
     }
-    .trainer-image3 img{
+
+    .trainer-image3 img {
         width: 100%;
         height: auto;
         transform: scale(1.08);
         transform-origin: 300px 200px;
         filter: brightness(90%);
     }
-    .trainer-image4 img{
+
+    .trainer-image4 img {
         width: 100%;
         height: auto;
         transform: scale(1.85);
         transform-origin: 200px 0px;
         filter: brightness(90%);
     }
-    .trainer-image5 img{
+
+    .trainer-image5 img {
         width: 100%;
         height: 95%;
         transform: scale(1.3);
         transform-origin: 100px 150px;
         filter: brightness(90%);
     }
-    .footer-container{
+
+    .footer-container {
         flex-direction: column;
+        width: 80%;
     }
-    .footer-section{
-        width: 100%; 
-        height: 100%;
-    }
-    .copyright {
+    .footer-element-1 {
         width: 100%;
-        margin-bottom: 20px;
     }
-    
 
+    .footer-section {
+        width: 100%;
+        height: 100%;
+        margin-bottom: -50px;
+    }
+    .footer-description{
+        font-size: 1rem;
+    }
 
+    .c-text p {
+        width: 100%;
+        margin-bottom: -105px;
+        text-align: center;
+    }
 
 }
