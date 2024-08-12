@@ -934,7 +934,7 @@ input,
     }
     
     .Package-title {
-        width: 60%;
+        width: 80%;
         margin: 100px auto 0 auto;
         text-align: center;
     }
@@ -1008,7 +1008,7 @@ input,
 
     .bmi-text {
         margin: 0 auto;
-        width: 70%;
+        width: 80%;
     }
 
     .bmi-text h3 {
