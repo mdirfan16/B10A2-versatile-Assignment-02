@@ -604,6 +604,7 @@ input,
     font-weight: 200;
     text-align: center;
     width: 80%;
+    margin-bottom: 20px;
 }
 
 
@@ -895,39 +896,43 @@ input,
     .trainer-image img{
         width: 100%;
         height: auto;
-        transform: scale(1.15);
-        transform-origin: 150px 90px;
+        transform: scale(1.25);
+        transform-origin: 120px 10px;
         filter: brightness(90%);
     }
     .trainer-image3 img{
         width: 100%;
         height: auto;
-        transform: scale(1.05);
-        transform-origin: 300px 550px;
+        transform: scale(1.08);
+        transform-origin: 300px 200px;
         filter: brightness(90%);
     }
     .trainer-image4 img{
         width: 100%;
         height: auto;
-        transform: scale(1.65);
+        transform: scale(1.85);
         transform-origin: 200px 0px;
         filter: brightness(90%);
     }
     .trainer-image5 img{
         width: 100%;
         height: 95%;
-        transform: scale(1.1);
-        transform-origin: 100px 380px;
+        transform: scale(1.3);
+        transform-origin: 100px 150px;
         filter: brightness(90%);
     }
     .footer-container{
         flex-direction: column;
     }
     .footer-section{
-        width: 100%;
+        width: 100%; 
         height: 100%;
-        
     }
+    .copyright {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
 
 
 
