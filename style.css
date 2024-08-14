@@ -151,6 +151,11 @@ span {
     margin-right: 30px;
     cursor: pointer;
 }
+.btn-primary:hover{
+    background-color: rgb(10, 100, 69);
+    transition: .5s;
+    border: none;
+}
 
 .btn-general {
     padding: 15px 50px;
@@ -163,6 +168,10 @@ span {
     background-color: rgba(255, 255, 255, 0);
     cursor: pointer;
 }
+.btn-general:hover{
+    background-color: rgb(10, 100, 69);
+    transition: .5s;
+    border: none;}
 
 .red-dot-card {
     background-color: rgba(63, 63, 63, 0.402);
@@ -398,6 +407,11 @@ span {
     cursor: pointer;
 
 }
+.btn-primary-pack:hover{
+    background-color: rgb(10, 100, 69);
+    transition: .5s;
+
+}
 
 
 .bmi-section {
@@ -526,6 +540,11 @@ input,
     border-radius: 50px;
     margin-top: 30px;
     cursor: pointer;
+
+}
+.btn-primary-cal:hover{
+    background-color: rgb(156, 49, 32);
+    transition: .5s;
 
 }
 
@@ -695,6 +714,10 @@ input,
     font-size: 1.2rem;
     font-weight: 200;
     cursor: pointer;
+}
+.footer-element-3 li:hover {
+    color: aquamarine;
+    transition: .3s;
 }
 
 .footer-section hr {
