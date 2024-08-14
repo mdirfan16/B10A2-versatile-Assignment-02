@@ -697,6 +697,11 @@ input,
     font-weight: 200;
     cursor: pointer;
 }
+.footer-element-2 li:hover {
+    color: rgb(211, 134, 46);
+    transition: .3s;
+    font-weight: 400;
+}
 
 .footer-element-3 h4 {
     font-size: 1.75rem;
@@ -718,6 +723,7 @@ input,
 .footer-element-3 li:hover {
     color: aquamarine;
     transition: .3s;
+    font-weight: 400;
 }
 
 .footer-section hr {
