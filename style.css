@@ -169,9 +169,10 @@ span {
     cursor: pointer;
 }
 .btn-general:hover{
-    background-color: rgb(10, 100, 69);
+    border: 2px solid rgb(10, 100, 69);
     transition: .5s;
-    border: none;}
+    color: rgb(10, 100, 69);
+}
 
 .red-dot-card {
     background-color: rgba(63, 63, 63, 0.402);
